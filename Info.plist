@@ -4,6 +4,8 @@
 <dict>
 	<key>Author</key>
 	<string>Ben Atkin</string>
+	<key>Builder Version</key>
+	<string>7534.48.3</string>
 	<key>CFBundleDisplayName</key>
 	<string>quiet google search</string>
 	<key>CFBundleIdentifier</key>
@@ -36,6 +38,9 @@
 			<key>Allowed Domains</key>
 			<array>
 				<string>www.google.com</string>
+				<string>encrypted.google.com</string>
+				<string>docs.google.com</string>
+				<string>mail.google.com</string>
 			</array>
 			<key>Include Secure Pages</key>
 			<true/>
@@ -44,6 +49,6 @@
 		</dict>
 	</dict>
 	<key>Website</key>
-	<string>https://github.com/benatkin/g--</string>
+	<string>https://github.com/benatkin/quietgsearch</string>
 </dict>
 </plist>
